@@ -29,5 +29,6 @@ repositories { // 각종 라이브러리를 어디에서 받을지 정함
 
 dependencies { //개발에 필요한 의존성들 선언
     implementation('org.springframework.boot:spring-boot-starter-web')
+    implementation('org.projectlombok:lombok')
     testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
