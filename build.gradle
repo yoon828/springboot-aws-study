@@ -29,6 +29,9 @@ repositories { // 각종 라이브러리를 어디에서 받을지 정함
 
 dependencies { //개발에 필요한 의존성들 선언
     implementation('org.springframework.boot:spring-boot-starter-web')
-    implementation('org.projectlombok:lombok')
+    implementation('org.projectlombok:lombok') //롬복
+    implementation('org.springframework.boot:spring-boot-starter-data-jpa') // 스프링 부트용 Spring Data JPA 추상화 라이브러리
+    implementation('com.h2database:h2') //인메모리 관계형 데이터베이스
+
     testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
